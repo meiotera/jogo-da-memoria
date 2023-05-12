@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+.container {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    padding: 3em;
+}
+
+.container .title {
+    margin-top: 1em;
+    font-size: 5.8em;
+    font-family: 'Sigmar', cursive;
+    color: #345bdb;
+}
+
+.container .title h3 {
+    font-size: .3em;
+    color: #666;    
+}
+.themes {
+    margin-top: 5em;
+}
+.btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #464d47;
+    outline: 0;
+}
+
+.btn-theme {
+    border-color: #34db58;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #18e444 inset, 0 0 0 0 #34db4a;
+    transition: all 150ms ease-in-out;
+}
+
+.btn-theme:hover {
+    box-shadow: 0 0 10px 0 #34db5e inset, 0 0 10px 4px #34db6c;
+}
