@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 .container {
     padding-top: 20px;
     margin: 0 auto;
@@ -66,6 +73,7 @@ a {
     .card {
         height: 150px;
         width: 120px;
+        border: 2px solid green;
     }
 }
 
@@ -73,12 +81,23 @@ a {
     .card {
         height: 120px;
         width: 100px;
+        border: 2px solid green;
     }
 }
 
 @media (max-width: 425px) {
     .card {
-        height: 100px;
-        width: 80px;
+        height: 63px;
+        width: 82px;
+        border: 2px solid green;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .card {
+        height: 40px;
+        width: 75px;
+        border: 2px solid green;
     }
 }
