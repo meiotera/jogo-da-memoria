@@ -79,16 +79,16 @@ a {
 
 @media (max-width: 768px) {
     .card {
-        height: 120px;
-        width: 100px;
+        height: 100px;
+        width: 80px;
         border: 2px solid green;
     }
 }
 
 @media (max-width: 425px) {
     .card {
-        height: 63px;
-        width: 82px;
+        height: 55px;
+        width: 70px;
         border: 2px solid green;
     }
 }
@@ -97,7 +97,7 @@ a {
 @media (max-width: 375px) {
     .card {
         height: 40px;
-        width: 75px;
+        width: 65px;
         border: 2px solid green;
     }
 }
