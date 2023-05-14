@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #345bdb;
+}
+
 .container {
     margin: 0 auto;
     width: 650px;
@@ -16,11 +37,13 @@
 
 .container .title h3 {
     font-size: .3em;
-    color: #666;    
+    color: #666;
 }
+
 .themes {
     margin-top: 5em;
 }
+
 .btn {
     box-sizing: border-box;
     appearance: none;
