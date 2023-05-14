@@ -87,8 +87,8 @@ a {
 
 @media (max-width: 425px) {
     .card {
-        height: 55px;
-        width: 70px;
+        height: 60px;
+        width: 80px;
         border: 2px solid green;
     }
 }
@@ -96,8 +96,12 @@ a {
 
 @media (max-width: 375px) {
     .card {
-        height: 40px;
-        width: 65px;
-        border: 2px solid green;
+        height: 50px;
+        width: 60px;
+        border: 1px solid green;
+    }
+
+    .container {
+        gap: 10px;
     }
 }
