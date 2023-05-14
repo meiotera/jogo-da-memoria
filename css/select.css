@@ -50,13 +50,13 @@ a {
     background-color: transparent;
     border: 2px solid #e74c3c;
     border-radius: 0.6em;
-    cursor: pointer;
-    align-self: center;
-    font-size: 1rem;
+    cursor: pointer;       
+    font-size: .8rem;
+    width: 150px;
     font-weight: 400;
     line-height: 1;
     margin: 20px;
-    padding: 1.2em 2.8em;
+    padding: 1em;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -79,4 +79,19 @@ a {
 
 .btn-theme:hover {
     box-shadow: 0 0 10px 0 #34db5e inset, 0 0 10px 4px #34db6c;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .container .title {
+        font-size: 3.8em;
+    }
+
 }
