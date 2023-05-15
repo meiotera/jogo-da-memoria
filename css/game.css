@@ -91,6 +91,10 @@ a {
         width: 80px;
         border: 2px solid green;
     }
+
+    .container {
+        gap: 10px;
+    }
 }
 
 
