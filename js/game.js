@@ -3,7 +3,6 @@ let playerOne = '';
 let playerTwo = '';
 let end = 0;
 const themeLocal = localStorage.getItem('theme');
-console.log(themeLocal)
 
 // function que cria elemento na tela
 function createElementHtml(tag, className) {
@@ -126,10 +125,19 @@ function checkCards() {
         end++;
     }
 
-    if ((end === characters[0].length) || (end === characters[1].length)) {        
-        alert('Fim de jogo');
-        return;
+    if (themeLocal === 'Futebol') {
+        if(end === characters[0].length) {
+            alert('Fim de jogo');
+        }
+    } else {
+        if(end === characters[1].length) {
+            alert('Fim de jogo');
+        }
     }
+    // if ((end === characters[0].length) || (end === characters[1].length)) {        
+    //     alert('Fim de jogo');
+    //     return;
+    // }
 }
 
 function reset(cardOne, cardTwo) {
