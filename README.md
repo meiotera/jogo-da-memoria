@@ -4,6 +4,9 @@ Um simples **jogo da memória** desenvolvido com **HTML, CSS e JavaScript puro**
 
 [🔗 Acesse o jogo online](https://jogo-da-memoria-khw4.onrender.com/)
 
+## Tela inicial
+![Tela inicial](./images/Capturar.PNG)
+
 ---
 
 ## 🎮 Como jogar
